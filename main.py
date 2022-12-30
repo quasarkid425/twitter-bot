@@ -5,7 +5,7 @@ import reddit_tweet as reddit
 def main():
     while True:
         reddit.tweet_cat_content()
-        time.sleep(900)
+        time.sleep(10)
 
 
 if __name__ == "__main__":
